@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     tools {
-        customTool 'python3'
         maven 'maven3'
     }
 
